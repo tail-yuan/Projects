@@ -1,0 +1,296 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 2010  Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Nov 25 14:30:32 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/xiaoawei/.vscode-server
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 3.82
+# makefile
+CURDIR := /home/xiaoawei/boost_seacher
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b16d881a9e4fee82f16d59f67823019e.zh-cn","_translationsConfigFile":"/home/xiaoawei/.vscode-server/data/clp/b16d881a9e4fee82f16d59f67823019e.zh-cn/tcf.json","_cacheRoot":"/home/xiaoawei/.vscode-server/data/clp/b16d881a9e4fee82f16d59f67823019e.zh-cn","_resolvedLanguagePackCoreLocation":"/home/xiaoawei/.vscode-server/data/clp/b16d881a9e4fee82f16d59f67823019e.zh-cn/6261075646f055b99068d3688932416f2346dd3b","_corruptedFile":"/home/xiaoawei/.vscode-server/data/clp/b16d881a9e4fee82f16d59f67823019e.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+INFOPATH = /opt/rh/devtoolset-8/root/usr/share/info:/opt/rh/devtoolset-8/root/usr/share/info
+# environment
+PCP_DIR = /opt/rh/devtoolset-8/root
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# environment
+VSCODE_CWD = /home/xiaoawei
+# environment
+SSH_CONNECTION = 59.46.93.149 61446 10.0.24.10 22
+# environment
+PATH = /home/xiaoawei/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/opt/rh/devtoolset-8/root/usr/bin:/opt/rh/devtoolset-8/root/usr/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/xiaoawei/.local/bin:/home/xiaoawei/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1001
+# makefile (from `makefile', line 3)
+HTTP_SERVER = http_server
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver check-symlink
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /home/xiaoawei/boost_seacher
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1001/vscode-ipc-788b3664-7c74-4659-955f-a74f9dd62360.sock
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PKG_CONFIG_PATH = /opt/rh/devtoolset-8/root/usr/lib64/pkgconfig:/opt/rh/devtoolset-8/root/usr/lib64/pkgconfig
+# environment
+HISTTIMEFORMAT = %F %T 
+# environment
+MANPATH = /opt/rh/devtoolset-8/root/usr/share/man:/opt/rh/devtoolset-8/root/usr/share/man:
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/xiaoawei
+# environment
+LD_LIBRARY_PATH = /opt/rh/devtoolset-8/root/usr/lib64:/opt/rh/devtoolset-8/root/usr/lib:/opt/rh/devtoolset-8/root/usr/lib64/dyninst:/opt/rh/devtoolset-8/root/usr/lib/dyninst:/opt/rh/devtoolset-8/root/usr/lib64:/opt/rh/devtoolset-8/root/usr/lib:/opt/rh/devtoolset-8/root/usr/lib64:/opt/rh/devtoolset-8/root/usr/lib:/opt/rh/devtoolset-8/root/usr/lib64/dyninst:/opt/rh/devtoolset-8/root/usr/lib/dyninst:/opt/rh/devtoolset-8/root/usr/lib64:/opt/rh/devtoolset-8/root/usr/lib:/home/xiaoawei/.VimForCpp/vim/bundle/YCM.so/el7.x86_64:/home/xiaoawei/.VimForCpp/vim/bundle/YCM.so/el7.x86_64
+# environment
+PERL5LIB = /opt/rh/devtoolset-8/root//usr/lib64/perl5/vendor_perl:/opt/rh/devtoolset-8/root/usr/lib/perl5:/opt/rh/devtoolset-8/root//usr/share/perl5/vendor_perl:/opt/rh/devtoolset-8/root//usr/lib64/perl5/vendor_perl:/opt/rh/devtoolset-8/root/usr/lib/perl5:/opt/rh/devtoolset-8/root//usr/share/perl5/vendor_perl
+# environment
+LOGNAME = xiaoawei
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+HOSTNAME = VM-24-10-centos
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 5
+# environment
+XDG_SESSION_ID = 624393
+# environment
+USER = xiaoawei
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PYTHONPATH = /opt/rh/devtoolset-8/root/usr/lib64/python2.7/site-packages:/opt/rh/devtoolset-8/root/usr/lib/python2.7/site-packages:/opt/rh/devtoolset-8/root/usr/lib64/python2.7/site-packages:/opt/rh/devtoolset-8/root/usr/lib/python2.7/site-packages
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# environment
+SSH_CLIENT = 59.46.93.149 61446 22
+# environment
+MAIL = /var/spool/mail/xiaoawei
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/xiaoawei/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# environment
+PROMPT_COMMAND = history -a; history -a; history -a; history -a; 
+# automatic
+<F = $(notdir $<)
+# makefile (from `makefile', line 2)
+DUG = debug
+# environment
+LC_ALL = C
+# makefile (from `makefile', line 4)
+cc = g++
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+HISTSIZE = 3000
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# makefile (from `makefile', line 1)
+PARSER = parser
+# variable set hash-table stats:
+# Load=72/1024=7%, Rehash=0, Collisions=7/104=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 64769, inode 1182208): 21 files, no impossibilities.
+
+# 21 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: parser debug http_server
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+.PHONY: all clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+debug: debug.cc
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from `makefile', line 14):
+	$(cc) -o $@ $^ -ljsoncpp -lpthread  -std=c++11
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-27 08:29:00.553312674
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+debug.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+parser: Parser.cc
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  Last modified 2022-07-27 15:23:07.700742316
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := parser
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := Parser.cc
+# automatic
+# | := 
+# automatic
+# < := Parser.cc
+# automatic
+# ^ := Parser.cc
+# automatic
+# ? := Parser.cc
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
+#  recipe to execute (from `makefile', line 12):
+	$(cc) -o $@ $^ -lboost_system -lboost_filesystem -std=c++11
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+http_server: http_server.cc
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from `makefile', line 10):
+	$(cc) -o $@ $^ -lboost_system -lpthread -ljsoncpp  -std=c++11
+
+# Not a target:
+Parser.cc:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-13 09:02:07.102046596
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from `makefile', line 17):
+	rm -f $(PARSER) $(DUG) $(HTTP_SERVER) 
+
+# Not a target:
+http_server.cc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+ 
+# Load=12/1024=1%, Rehash=0, Collisions=0/37=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0 / lookups = 53 / hits = 53
+# # of strcache buffers: 1 (* 8176 B/buffer = 8176 B)
+# strcache used: total = 0 (237) / max = 0 / min = 8176 / avg = 0
+# strcache free: total = 0 (7939) / max = 0 / min = 8176 / avg = 0
+
+# strcache hash-table stats:
+# Load=28/8192=0%, Rehash=0, Collisions=1/53=2%
+# Finished Make data base on Fri Nov 25 14:30:32 2022
+
+ 
